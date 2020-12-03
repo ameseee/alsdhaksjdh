@@ -5,6 +5,8 @@ info: Welcome to the Jekyll Style Guide.
 nav: false
 ---
 
+<h1>👗Spike based off Matthew Welsoms Style Guide</h1>
+
 <h1>👋 Hi! </h1>
 
 My name's [Matthew](https://matthewelsom.com), and I built this [Jekyll-based](http://jekyllrb.com/) tool that you can use to generate and document product or system user interface (UI) patterns in a simple [Style Guide](https://jekyllstyleguide.com).
