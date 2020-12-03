@@ -4,14 +4,15 @@ styles: base/variables.scss
 maturity: ready
 control: exclude
 colors: 
-  - name: $white
-    hex: '#ffffff'
-    rgb: rgb(255,255,255)
-  - name: $black
-    hex: '#222222'
-    rgb: rgb(0,0,0)
-  - name: $pink
-    hex: 'hotpink' 
+  - name: $turing-blue
+    hex: '#12f1fc'
+    rgb: rgb(18,241,252)
+  - name: $turing-yellow
+    hex: '#f9ae06'
+    rgb: rgb(249,174,6)
+  - name: $turing-red
+    hex: '#ef3852'
+    rgb: rgb(239, 56, 82)
 ---
 <style>
 .set {

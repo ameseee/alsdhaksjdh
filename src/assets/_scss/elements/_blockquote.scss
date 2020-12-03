@@ -18,4 +18,14 @@ blockquote {
     border-color: $green;
     color: $black;
   }
+  &.pink {
+    background: transparentize(magenta, .8);
+    border-color: magenta;
+    color: $black;
+  }
+  &.yellow {
+    background: transparentize(yellow, .8);
+    border-color: yellow;
+    color: $black;
+  }
 }

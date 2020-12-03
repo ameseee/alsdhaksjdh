@@ -7,7 +7,11 @@
 @import "abstracts/__abstracts-dir";
 //Base Styles
 @import "base/__base-dir";
-//Components
-@import "components/__components-dir";
+//Elements
+@import "elements/__elements-dir";
 //Layout
 @import "layouts/__layouts-dir";
+
+.highlight code:before {
+    background: teal;
+}

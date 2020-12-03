@@ -63,22 +63,22 @@ defaults:
       type: about    
   - 
     scope:
-      path: "_docs/foundations"
+      path: "_docs/tokens"
     values:
       layout: doc
-      type: foundation
+      type: token
+  - 
+    scope:
+      path: "_docs/elements"
+    values:
+      layout: doc
+      type: element 
   - 
     scope:
       path: "_docs/components"
     values:
       layout: doc
-      type: component 
-  - 
-    scope:
-      path: "_docs/templates"
-    values:
-      layout: doc
-      type: template    
+      type: component    
   - 
     scope:
       path: "_docs/sample-pages"

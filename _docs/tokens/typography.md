@@ -3,9 +3,12 @@ title: Typography
 info: Roboto and Roboto Slab fonts have been selected as the primary fonts for this system.
 ---
 
-{% include pattern_block.html url='/src/patterns/foundations/typography/roboto.html' %}
+FYI This was in the starter kit from Matt Welsom - not Savile fonts!! Just left here as a placeholder.
 
-{% include pattern_block.html url='/src/patterns/foundations/typography/roboto-slab.html' %}
+
+{% include pattern_block.html url='/src/patterns/tokens/typography/roboto.html' %}
+
+{% include pattern_block.html url='/src/patterns/tokens/typography/roboto-slab.html' %}
 
 ---
 

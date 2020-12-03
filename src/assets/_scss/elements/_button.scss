@@ -1,27 +1,36 @@
-
-.button {
-  position: relative;
+.btn {
+  border: none;
+  border-radius: 50px;
+  font-family: sans-serif;
+  font-size: 14px;
+  letter-spacing: .5px;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding: 18px 40px 12px;
   display: inline-block;
-  vertical-align: middle;
-  margin: 0 $small-pad/2 0 0;
-  padding: $base-pad;
-  border: 4px solid $pink;
-  background: $white;
   cursor: pointer;
-  color: $pink;
-  line-height: 1;
-  text-align: center;
-  text-decoration: none;
-  min-width: 100px;
-  transition: all .2s ease;
+}
 
+.cta-btn {
+  background-color: #12f1fc;
+  color: #036575;
+  
   &:hover,
   &:focus {
-    background: $pink;
-    color: $white;
-    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    color: #ef3852;
   }
 }
+
+.cta-btn-dark {
+  background-color: #036575;
+  color: #12f1fc;
+}
+
+.info-btn {
+  background-color: #5f5f5f;
+  color: white;
+}
+
 .button_animated {
   overflow: hidden;
   padding-right: 0;
@@ -53,11 +62,4 @@
       right: 0;
     }
   }
-}
-.button_disabled {
-  pointer-events: none;
-  opacity: .5;
-}
-.button_block {
-  display: block;
 }

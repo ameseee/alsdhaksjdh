@@ -1,13 +1,13 @@
 ---
 title: Accent Colors
 styles: base/variables.scss
-maturity: draft
+maturity: ready
 control: exclude
 colors: 
-  - name: $blue
-    hex: 'lightskyblue'  
-  - name: $green
-    hex: 'lightseagreen'  
+  - name: $dark-turing-blue
+    hex: '#036575'  
+  - name: $dark-grey
+    hex: '#5f5f5f'  
 ---
 <style>
 .set {

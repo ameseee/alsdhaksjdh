@@ -1,3 +1,17 @@
+# Amy's Notes
+
+Project Structure 101:
+- docs (markdown files for each "page" you want docs for)
+- includes (the usual, with a pattern_block for code snippets)
+- layouts (the usual)
+- src (assets and patterns - the patterns have the actual HTML that will be rendered as sample elements, AND that HTML is what the docs show in code snippets. It also has the CSS in a style tag. )
+- styleguide (brings in everything from src to make the main CSS file. Variables also live in here. Those variables aren't available in the patterns files atm.)
+
+Workflow to add an element (I _think_):
+1. src/patterns/element -> mkdir, then inside, touch an HTML file. The HTML you write in here is what will show up on the page as sample, and be used for the code snippet
+1. _docs/elements -> touch an MD file. It should "include" the file made in step 1.
+1. src/assets/scss/elements -> touch an scss file. Write the code to style element in question.
+
 # Jekyll Style Guide 
 
 👋 Hi! My name's [Matthew](https://matthewelsom.com), and I built this Jekyll-based tool that you can use to generate and document product or system user interface (UI) patterns in a simple [Style Guide](https://jekyllstyleguide.com).

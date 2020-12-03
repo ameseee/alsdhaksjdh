@@ -1,17 +1,23 @@
 ---
-title: Heros
-maturity: planned
+title: Icons
+maturity: draft
 control: exclude
 items: 
-  - name: Banner A
-    path: src/assets/images/hero.png 
+  - name: Try Coding Icon
+    path: "https://d682ma8ami8n4.cloudfront.net/images/try-coding.svg"
+  - name: Turing Gear Icon - Dark Grey
+    path: "https://d682ma8ami8n4.cloudfront.net/images/TuringSchool_LogoMark_Gray.png"
+  - name: FEE logo
+    path: "https://d682ma8ami8n4.cloudfront.net/images/FEE.svg"
+  - name: BEE logo
+    path: "https://d682ma8ami8n4.cloudfront.net/images/BEE.svg"
 ---
 <style>
 .set {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -1rem;
-  margin-top:  0;
+  margin-top: 0;
   padding: 0;
   list-style: none;
 }
@@ -41,9 +47,9 @@ p {
 <ul class="set">
 {% for item in page.items %} 
   <li>
-    <div class="image"><img src="{{ site.baseurl }}/{{ item.path }}"/></div>
+    <div class="image"><img src="{{ item.path }}"/></div>
     <p class="header">{{ item.name }}</p>
-    {% if item.path %}<p>{{ item.path }}</p>{% endif %}
+    {% if item.path %}<a href="{{ item.path }}">{{ item.path }}</a>{% endif %}
   </li>
 {% endfor %}
 </ul>
